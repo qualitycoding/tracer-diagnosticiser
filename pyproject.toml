@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools==84.0.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tracer-diag"
+version = "0.1.0"
+description = "Read-only on-board diagnostics for a 2022 Yamaha Tracer 9 GT via an ELM327/STN adapter"
+requires-python = ">=3.12,<3.13"
+dependencies = ["pyserial==3.5"]
+
+[project.optional-dependencies]
+capture = ["python-can==4.6.1"]
+
+[project.scripts]
+tracer-diag = "tracer_diag.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-p no:cacheprovider"

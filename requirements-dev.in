@@ -1,0 +1,4 @@
+-r requirements.in
+python-can==4.6.1
+pytest==9.1.1
+pip-audit==2.10.1
