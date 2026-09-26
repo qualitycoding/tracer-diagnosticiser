@@ -7,8 +7,8 @@
  "mode_flags": {
   "software.deploys": false
  },
- "phase": "4",
- "subphase": "2",
+ "phase": "5",
+ "subphase": "1",
  "research_round": 3,
  "exploration_round": 0,
  "proof_review_round": 0,
@@ -29,11 +29,10 @@
   "3.4",
   "3.5",
   "3.6",
-  "4"
- ],
- "pending": [
+  "4",
   "5"
  ],
+ "pending": [],
  "not_applicable": [
   "0.3.3",
   "0.3.4",
@@ -56,7 +55,7 @@
   "plan/ENVIRONMENT.md": "667c27b793bb6bf60962847607c64e85a588aa3d766438a017966f2f9d6e1439",
   "plan/GATES.md": "02fc84d9b3f7095fc3f82b2fe91c7d301142df82b582f65cf6b531a97b715c6f",
   "plan/HARDWARE.md": "b4083c55d803d5283aa6c09ecaeb964bfa1991317d860345f4624c4a56526730",
-  "plan/PLAN.md": "fe2cbe15c849b9cd8e26945691ad97cc1d3b9d8256f1741de6e5929762e33553",
+  "plan/PLAN.md": "0b0c4b31fd769b33f2a9a282a9ef7809d96f1590bb7d4d3a8d9911a9637f54e1",
   "plan/PROFILE.md": "5dd20fbefe37b181722592d645e9dcf9cafe5285a407fc495a33c5f0f40c0064",
   "plan/TRACEABILITY.md": "d97a9eaa9e61dae6f7dd91f9aed17cd317385eba91086cc59f6680beaf7cceeb",
   "premortem/RISK_REGISTER.md": "edae17fda5d65c9da4b7a2c91a66c93255d9d43c8c6c28777a107c684c2fe908",
@@ -70,7 +69,7 @@
   "research/QUESTIONS.md": "9f528641052f5c08e6d42f59aad05efa570154d96f0b7997d18ad9001bf5cc94",
   "research/SOURCES.md": "6e269d57dd68e929620fc82f1dc3cd84e191d39420ed054d61b718db17650af6",
   "research/claims.json": "724dc93c369632b0f6da13c40d3e9afcb9204f4dd3ca123c3d852593c054b0f3",
-  "research/rounds/cold-read.md": "e68bcb3d64a84baad95972a876d7cf78a489fe11eb9d177aa8bdc3b6567866f5",
+  "research/rounds/cold-read.md": "6249e35e6a7343b8f8f5fbbfac5332b11e2d5850860c7a528517a352d14b2b6b",
   "research/rounds/round-1.md": "b5c80f4742c58ebc6eb98e2c16766c8316e3efd7240cd43d437c64686679c00b",
   "research/rounds/round-2.md": "9c60c7511ebdf2eb54efec918ecf91d9ea75add252843d06490be9e317a5d706",
   "research/rounds/round-3.md": "e81dba05b398d05c5aee464412cdc72af42c11ed35bfbe3b16775426e1360ba3",
@@ -140,5 +139,5 @@
  "open_items": [
   "Human to rotate the planning-chat PAT (A-016)"
  ],
- "updated_at": "2026-09-26T21:49:51Z"
+ "updated_at": "2026-09-26T21:50:20Z"
 }

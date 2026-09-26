@@ -2,10 +2,10 @@
 **STATUS: READY**
 - Active profiles: `software` (`software.deploys = false`)
 - Claims: 23 total — verified 5, corroborated 5, single-source 12, inferred 1 (load-bearing below corroborated: 6, all carried as risks)
-- Tests (frozen, red at freeze): 59 IDs / 174 cases — unit 27 IDs, integration 10, operational 10, security 12, performance 2; checks CHK-01..CHK-04
+- Tests (frozen, red at freeze): 61 IDs / 174 cases — unit 27, integration 10, operational 10, security 12, performance 2; checks CHK-01..CHK-04
 - Steps: 14 (S-001–S-014)
 - Gates: 4 applicable (G-002a, G-002b, G-003, G-004); G-001 N/A
-- Risks after mitigation: Critical 0, High 0, Medium 9, Low 13
+- Risks (25) after mitigation: Critical 0, High 0, Medium 8, Low 17
 
 # Execution Plan — read-only diagnostics for a 2022 Yamaha Tracer 9 GT (UK)
 

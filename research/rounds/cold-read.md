@@ -15,3 +15,7 @@ All resolved by amending the plan.
 
 ## Pass 2 — items found
 None. `consistency_check.py` → CONSISTENT (output below, appended at freeze time).
+
+```
+CONSISTENT: 61 test IDs, 23 claims, 14 steps, 25 risks
+```
