@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.egg-info/
+build/
+dist/
+# On-bike outputs contain the VIN and must never be committed (R-017)
+runs/
+*.transcript.log
+*.csv
+report*.json
+.ghtok
