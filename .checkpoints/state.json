@@ -7,8 +7,8 @@
  "mode_flags": {
   "software.deploys": false
  },
- "phase": "2",
- "subphase": "E",
+ "phase": "3",
+ "subphase": "6",
  "research_round": 3,
  "exploration_round": 0,
  "proof_review_round": 0,
@@ -22,15 +22,15 @@
   "1.3",
   "1.4",
   "2B",
-  "2E"
- ],
- "pending": [
+  "2E",
   "3.1",
   "3.2",
   "3.3",
   "3.4",
   "3.5",
-  "3.6",
+  "3.6"
+ ],
+ "pending": [
   "4",
   "5"
  ],
