@@ -1,0 +1,48 @@
+{
+ "dtc_0133": [
+  "P0133",
+  "O2 Sensor Circuit Slow OBDResponse"
+ ],
+ "dtc_0420": [
+  "P0420",
+  "Catalyst System Efficiency Below Threshold"
+ ],
+ "dtc_4123": [
+  "C0123",
+  ""
+ ],
+ "dtc_8001": [
+  "B0001",
+  ""
+ ],
+ "dtc_C155": [
+  "U0155",
+  "Lost Communication With Instrument Panel Cluster (IPC) Control Module"
+ ],
+ "dtc_1234": [
+  "P1234",
+  ""
+ ],
+ "dtc_0000": [
+  "P0000",
+  ""
+ ],
+ "pid_010C_1AF8": "1726.0 revolutions_per_minute",
+ "pid_010C_0000": "0.0 revolutions_per_minute",
+ "pid_010C_FFFF": "16383.75 revolutions_per_minute",
+ "pid_0105_00": "-40 degree_Celsius",
+ "pid_0105_7B": "83 degree_Celsius",
+ "pid_0105_FF": "215 degree_Celsius",
+ "pid_010D_3C": "60.0 kilometer_per_hour",
+ "pid_0111_80": "50.19607843137255 percent",
+ "pid_0104_FF": "100.0 percent",
+ "pid_010F_3C": "20 degree_Celsius",
+ "pid_010B_65": "101 kilopascal",
+ "pid_010E_80": "0.0 degree",
+ "pid_0142_3200": "12.8 volt",
+ "pid_0121_0102": "258.0 kilometer",
+ "status_83076504": {
+  "MIL": true,
+  "DTC_count": 3
+ }
+}

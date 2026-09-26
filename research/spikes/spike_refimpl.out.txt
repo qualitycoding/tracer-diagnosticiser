@@ -1,0 +1,6 @@
+Spike S7 (D-020): satisfiability of the frozen suite.
+A throwaway reference implementation was written in the planning sandbox (outside the repo),
+run against the frozen tests, then discarded so the implementer builds from the specs (plan/DECISIONS.md).
+tar sha256 of discarded tree: 5fbc180ff0393b1f6023fa8e823b9c6429ef69ccc0e4379fd316d6c0078ae24d
+result: 174 passed in 0.27s
+red baseline against committed stubs: 174 failed in 0.74s

@@ -1,0 +1,7 @@
+emulator pty: /dev/pts/0
+status: Car Connected
+protocol: 6 ISO 15765-4 (CAN 11/500)
+RPM: <Quantity(1303.75, 'revolutions_per_minute')>
+COOLANT_TEMP: <Quantity(55, 'degree_Celsius')>
+GET_DTC: []
+ELM_VOLTAGE: <Quantity(13.2, 'volt')>

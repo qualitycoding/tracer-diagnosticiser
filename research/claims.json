@@ -1,0 +1,786 @@
+[
+ {
+  "id": "C-001",
+  "claim": "The 2021+ Tracer 9 / 9 GT exposes diagnostics on a red 6-pin Euro 5 connector (not the pre-2021 white 4-pin).",
+  "kind": "software",
+  "load_bearing": true,
+  "sources": [
+   {
+    "url": "https://www.kevmod.com.au/product/kev-mod/31",
+    "doi": "",
+    "title": "kev mod: Yamaha FI OBD2 scanner, Tracer 900/GT 2021+ Euro 5 RED connector",
+    "version": "",
+    "locator": "product text",
+    "accessed": "2026-09-26",
+    "tier": 2,
+    "id": "S10"
+   },
+   {
+    "url": "https://www.fz09.org/threads/read-clear-dtcs-from-the-tracer-9-gt-onboard-diagnostics.74372/",
+    "doi": "",
+    "title": "fz09.org: Read/Clear DTCs from the Tracer 9 GT+",
+    "version": "",
+    "locator": "thread",
+    "accessed": "2026-09-26",
+    "tier": 4,
+    "id": "S11"
+   },
+   {
+    "url": "https://www.roadglide.org/threads/obd-port-2022-rgs.395081/",
+    "doi": "",
+    "title": "roadglide.org: red 6-pin plug same as 2021 Tracer 9GT",
+    "version": "",
+    "locator": "post",
+    "accessed": "2026-09-26",
+    "tier": 4,
+    "id": "S12"
+   },
+   {
+    "url": "https://static.nhtsa.gov/odi/tsbs/2019/MC-10165431-0001.pdf",
+    "doi": "",
+    "title": "Yamaha Motor Corp USA service bulletin MSA2019-001: new YDT 6-pin OBD sub-lead 90890-03266-00",
+    "version": "",
+    "locator": "p.1",
+    "accessed": "2026-09-26",
+    "tier": 1,
+    "id": "S01"
+   }
+  ],
+  "confidence": "single-source",
+  "evidence_class": "n/a",
+  "contradicted_by": [],
+  "informs": [
+   "D-002",
+   "G-003",
+   "HARDWARE.md"
+  ],
+  "notes": "Model-specific evidence is Tier 2/4 only; S01 (Tier 1) establishes Yamaha's move to the 6-pin OBD connector from MY2020 but does not name the Tracer. Confirmed visually by the human at G-003 (S-012 step 2)."
+ },
+ {
+  "id": "C-002",
+  "claim": "The Euro 5 6-pin motorcycle diagnostic connector is standardised by ISO 19689:2016 and implemented by the JST MWT series.",
+  "kind": "software",
+  "load_bearing": true,
+  "sources": [
+   {
+    "url": "https://www.mouser.co.uk/jst-mwt-connectors",
+    "doi": "",
+    "title": "JST MWT OBDII connection system (ISO 19689 compliant, 6-pole)",
+    "version": "",
+    "locator": "Features list",
+    "accessed": "2026-09-26",
+    "tier": 1,
+    "id": "S02"
+   },
+   {
+    "url": "https://www.mouser.lt/pdfDocs/JSTsMWTSeriesOBDIIConnector.pdf",
+    "doi": "",
+    "title": "JST DSO-PR118: MWT series designed to ISO 19689:2016",
+    "version": "",
+    "locator": "p.1",
+    "accessed": "2026-09-26",
+    "tier": 1,
+    "id": "S03"
+   },
+   {
+    "url": "https://www.fz09.org/threads/specs-for-diy-euro5-obd-cable.69264/",
+    "doi": "",
+    "title": "fz09.org: ISO 19689:2016 / JST MWT for Euro5 ('21+) bikes",
+    "version": "",
+    "locator": "post (fetch 402; snippet only)",
+    "accessed": "2026-09-26",
+    "tier": 4,
+    "id": "S14"
+   },
+   {
+    "url": "https://www.astools.eu/products/euro-v-6-pin-to-16-pin-obd2-adapter-cable-motorcycle",
+    "doi": "",
+    "title": "AS Tools: Euro-V ISO 19689 6-pin to 16-pin adapter; tool must support protocol",
+    "version": "",
+    "locator": "product text",
+    "accessed": "2026-09-26",
+    "tier": 2,
+    "id": "S30"
+   }
+  ],
+  "confidence": "corroborated",
+  "evidence_class": "n/a",
+  "contradicted_by": [],
+  "informs": [
+   "D-002"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "C-003",
+  "claim": "Commercial ISO 19689 6-pin to SAE J1962 16-pin moulded adapter leads carry both CAN and K-line and are sold for Yamaha Euro 5 bikes.",
+  "kind": "software",
+  "load_bearing": true,
+  "sources": [
+   {
+    "url": "https://www.astools.eu/products/euro-v-6-pin-to-16-pin-obd2-adapter-cable-motorcycle",
+    "doi": "",
+    "title": "AS Tools: Euro-V ISO 19689 6-pin to 16-pin adapter; tool must support protocol",
+    "version": "",
+    "locator": "product text",
+    "accessed": "2026-09-26",
+    "tier": 2,
+    "id": "S30"
+   },
+   {
+    "url": "https://www.pvtech-ecu-research.com/motorcycle-euro5-obd-adapter/",
+    "doi": "",
+    "title": "PVTech: Euro5 6-pin adapter covers CAN and K-line, 30.00",
+    "version": "",
+    "locator": "product text",
+    "accessed": "2026-09-26",
+    "tier": 2,
+    "id": "S32"
+   },
+   {
+    "url": "https://www.ebay.de/itm/334453027760",
+    "doi": "",
+    "title": "eBay motorrad-muc24: 6-pin to 16-pin Euro 5 adapter EUR 19.80",
+    "version": "",
+    "locator": "listing",
+    "accessed": "2026-09-26",
+    "tier": 4,
+    "id": "S31"
+   },
+   {
+    "url": "https://www.touratech.com/duonix-bike-scan-2-pro-diagnostic-device-for-yamaha-with-obd-euro5-iso19689-diagnostic-cable.html",
+    "doi": "",
+    "title": "Touratech: Duonix Bike-Scan 2 Pro for Yamaha with ISO19689 cable, EUR 449",
+    "version": "",
+    "locator": "product text",
+    "accessed": "2026-09-26",
+    "tier": 2,
+    "id": "S19"
+   }
+  ],
+  "confidence": "single-source",
+  "evidence_class": "n/a",
+  "contradicted_by": [],
+  "informs": [
+   "D-003",
+   "G-003"
+  ],
+  "notes": "No Tier 1 source for the ISO 19689 pin assignment (standard is paywalled). Mitigation: moulded lead + G-003 multimeter check of J1962 pin 16 vs 4/5 before connecting the adapter (R-002)."
+ },
+ {
+  "id": "C-004",
+  "claim": "On the J1962 (16-pin) side: pin 16 = +12 V battery, pins 4/5 = ground, pins 6/14 = CAN high/low, pin 7 = K-line.",
+  "kind": "software",
+  "load_bearing": true,
+  "sources": [
+   {
+    "url": "https://race-technology.com/wiki/index.php/ConnectingTheCANOBDIIInterface/CANOBDIICompatibility",
+    "doi": "",
+    "title": "Race Technology: CAN on J1962 pins 6 and 14",
+    "version": "",
+    "locator": "Compatibility",
+    "accessed": "2026-09-26",
+    "tier": 3,
+    "id": "S25"
+   },
+   {
+    "url": "https://www.fz07.org/thread/10662/fz07-error-code-reader-obd2-kit/",
+    "doi": "",
+    "title": "fz07.org: 4-pin pin 5 gnd, 16 +12V, 6/14 CAN; Canada 2019 MT-07 would not connect",
+    "version": "",
+    "locator": "posts 2019-2021",
+    "accessed": "2026-09-26",
+    "tier": 4,
+    "id": "S18"
+   }
+  ],
+  "confidence": "corroborated",
+  "evidence_class": "n/a",
+  "contradicted_by": [],
+  "informs": [
+   "G-003"
+  ],
+  "notes": "S25 Tier 3 + S18 Tier 4 + SAE J1962 is the legislated OBD-II connector; treated as corroborated for pins 6/14/16. Used only for the G-003 pin-16 voltage check."
+ },
+ {
+  "id": "C-005",
+  "claim": "The 2021+ CP3 Yamaha engine ECU answers generic OBD services (read DTCs, live PIDs) through the 6-pin connector with an ELM327-class adapter.",
+  "kind": "software",
+  "load_bearing": true,
+  "sources": [
+   {
+    "url": "https://www.kevmod.com.au/product/kev-mod/31",
+    "doi": "",
+    "title": "kev mod: Yamaha FI OBD2 scanner, Tracer 900/GT 2021+ Euro 5 RED connector",
+    "version": "",
+    "locator": "product text",
+    "accessed": "2026-09-26",
+    "tier": 2,
+    "id": "S10"
+   },
+   {
+    "url": "https://www.fz09.org/threads/obd-2-code-reader-and-6-pin-adapter-cable-for-2021-mt-09.69682/",
+    "doi": "",
+    "title": "fz09.org: code reader + 6-pin cable on 2021 MT-09",
+    "version": "",
+    "locator": "post",
+    "accessed": "2026-09-26",
+    "tier": 4,
+    "id": "S13"
+   },
+   {
+    "url": "https://support.chigee.com/portal/en/kb/articles/is-the-obd-compatible-with-my-bike",
+    "doi": "",
+    "title": "CHIGEE OBD module requirements (ISO 15765-4; Euro-5 6-pin plug and play; no splitters)",
+    "version": "",
+    "locator": "article",
+    "accessed": "2026-09-26",
+    "tier": 2,
+    "id": "S15"
+   },
+   {
+    "url": "https://www.roadsitalia.com/en/ecus-obdii-diagnostics-and-lambda-kits-roadsitalia/4491-motorcycle-obd2-diagnostic-kit-bluetooth-elm327-v15-3-in-1-cable-yamaha-3pin-4pin-euro5-6pin-roadsitalia.html",
+    "doi": "",
+    "title": "Roadsitalia ELM327 v1.5 kit + 3-in-1 cable (Yamaha 3/4-pin + Euro5 6-pin), EUR 37.50",
+    "version": "",
+    "locator": "product text",
+    "accessed": "2026-09-26",
+    "tier": 2,
+    "id": "S16"
+   }
+  ],
+  "confidence": "inferred",
+  "evidence_class": "n/a",
+  "contradicted_by": [],
+  "informs": [
+   "D-001",
+   "D-004",
+   "G-003",
+   "R-001"
+  ],
+  "notes": "Four independent Tier 2/4 reports, no Tier 1. This is the plan's central unknown (R-001); procedure and acceptance are frozen instead of the outcome (DR-05 at G-003)."
+ },
+ {
+  "id": "C-006",
+  "claim": "Pre-2021 Yamaha 4-pin bikes used ISO 15765-4 CAN 11-bit 500 kbaud; some non-EU variants did not connect with generic readers.",
+  "kind": "software",
+  "load_bearing": false,
+  "sources": [
+   {
+    "url": "https://www.fz09.org/threads/obd2-diagnostic-tool-for-clearing-faults.48121/page-4",
+    "doi": "",
+    "title": "fz09.org: 2018 MT-07 4-pin = ISO 15765-4 CAN 11/500",
+    "version": "",
+    "locator": "page 4",
+    "accessed": "2026-09-26",
+    "tier": 4,
+    "id": "S17"
+   },
+   {
+    "url": "https://www.fz07.org/thread/10662/fz07-error-code-reader-obd2-kit/",
+    "doi": "",
+    "title": "fz07.org: 4-pin pin 5 gnd, 16 +12V, 6/14 CAN; Canada 2019 MT-07 would not connect",
+    "version": "",
+    "locator": "posts 2019-2021",
+    "accessed": "2026-09-26",
+    "tier": 4,
+    "id": "S18"
+   }
+  ],
+  "confidence": "single-source",
+  "evidence_class": "n/a",
+  "contradicted_by": [],
+  "informs": [
+   "A-007",
+   "DR-05"
+  ],
+  "notes": "Informs A-007 (UK/EU variant) and DR-05."
+ },
+ {
+  "id": "C-007",
+  "claim": "Generic OBD readers on 2021+ Yamaha reach the engine ECU only, not the dash or ABS.",
+  "kind": "software",
+  "load_bearing": true,
+  "sources": [
+   {
+    "url": "https://www.kevmod.com.au/product/kev-mod/31",
+    "doi": "",
+    "title": "kev mod: Yamaha FI OBD2 scanner, Tracer 900/GT 2021+ Euro 5 RED connector",
+    "version": "",
+    "locator": "product text",
+    "accessed": "2026-09-26",
+    "tier": 2,
+    "id": "S10"
+   }
+  ],
+  "confidence": "single-source",
+  "evidence_class": "n/a",
+  "contradicted_by": [],
+  "informs": [
+   "A-006",
+   "D-018"
+  ],
+  "notes": "Scopes SC-1..4 to the engine ECU; other modules are stretch (A-006, D-018, G-004)."
+ },
+ {
+  "id": "C-008",
+  "claim": "The Tracer 9 GT (2021+) carries a 6-axis IMU, cornering ABS, semi-active KYB suspension and quickshifter (several ECUs beyond the engine).",
+  "kind": "software",
+  "load_bearing": false,
+  "sources": [
+   {
+    "url": "https://www.motorradonline.de/tourer/yamaha-tracer-900-gt-mehr-leistung-kurven-abs-und-tempomat/",
+    "doi": "",
+    "title": "motorradonline: Tracer 9 GT 2021 electronics (6-axis IMU, semi-active KYB)",
+    "version": "",
+    "locator": "Technische Highlights",
+    "accessed": "2026-09-26",
+    "tier": 3,
+    "id": "S21"
+   }
+  ],
+  "confidence": "single-source",
+  "evidence_class": "n/a",
+  "contradicted_by": [],
+  "informs": [
+   "A-006"
+  ],
+  "notes": "Context for stretch scope only."
+ },
+ {
+  "id": "C-009",
+  "claim": "EU Reg. 2019/129 deferred catalyst monitoring (full OBD stage II) beyond the first Euro 5 step (envisaged 2025); a 2022 Euro 5 bike need not support every mode 06/monitor PID.",
+  "kind": "software",
+  "load_bearing": true,
+  "sources": [
+   {
+    "url": "https://eur-lex.europa.eu/eli/reg/2019/129/oj/eng",
+    "doi": "",
+    "title": "Regulation (EU) 2019/129 amending 168/2013 (Euro 5 L-category)",
+    "version": "",
+    "locator": "Recital (2)",
+    "accessed": "2026-09-26",
+    "tier": 1,
+    "id": "S04"
+   }
+  ],
+  "confidence": "corroborated",
+  "evidence_class": "n/a",
+  "contradicted_by": [],
+  "informs": [
+   "D-014",
+   "T-I04"
+  ],
+  "notes": "Tier 1 regulation text; second source S04 same act via EP summaries (oeil.europarl.europa.eu 2018/0065(COD)). Drives D-014: discover supported PIDs, never assume."
+ },
+ {
+  "id": "C-010",
+  "claim": "Yamaha's dealer tool is YDT with a 6-pin OBD sub-harness (90890-03266-00); it is distributed to dealers, not sold as a consumer product.",
+  "kind": "software",
+  "load_bearing": false,
+  "sources": [
+   {
+    "url": "https://static.nhtsa.gov/odi/tsbs/2019/MC-10165431-0001.pdf",
+    "doi": "",
+    "title": "Yamaha Motor Corp USA service bulletin MSA2019-001: new YDT 6-pin OBD sub-lead 90890-03266-00",
+    "version": "",
+    "locator": "p.1",
+    "accessed": "2026-09-26",
+    "tier": 1,
+    "id": "S01"
+   }
+  ],
+  "confidence": "single-source",
+  "evidence_class": "n/a",
+  "contradicted_by": [],
+  "informs": [
+   "HARDWARE.md"
+  ],
+  "notes": "Tier 1 bulletin; consumer unavailability is inferred from 'shipped to dealerships' wording. Rank: reference only."
+ },
+ {
+  "id": "C-011",
+  "claim": "OBDLink EX (USB) and MX+ (Bluetooth) support all legislated OBD-II protocols incl. ISO 15765-4 and ISO 14230-4; MX+ supports Android, iOS and Windows; EX peaks ~200 PIDs/s, MX-family BT ~100 PIDs/s.",
+  "kind": "software",
+  "load_bearing": true,
+  "sources": [
+   {
+    "url": "https://support.obdlink.com/support/solutions/articles/43000713351",
+    "doi": "",
+    "title": "OBDLink adapter comparison (protocols, connection, OS)",
+    "version": "",
+    "locator": "tables",
+    "accessed": "2026-09-26",
+    "tier": 1,
+    "id": "S05"
+   },
+   {
+    "url": "https://scantool.net/obdlink-ex/",
+    "doi": "",
+    "title": "OBDLink EX product page",
+    "version": "",
+    "locator": "Additional Info",
+    "accessed": "2026-09-26",
+    "tier": 1,
+    "id": "S06"
+   },
+   {
+    "url": "https://www.scantool.net/obdlink-mx/",
+    "doi": "",
+    "title": "OBDLink MX product page (predecessor; BT v3.0 SPP, ~100 PIDs/s)",
+    "version": "",
+    "locator": "Specifications",
+    "accessed": "2026-09-26",
+    "tier": 1,
+    "id": "S07"
+   }
+  ],
+  "confidence": "corroborated",
+  "evidence_class": "n/a",
+  "contradicted_by": [],
+  "informs": [
+   "D-001",
+   "D-019",
+   "HARDWARE.md"
+  ],
+  "notes": "Two Tier 1 vendor pages (same vendor, different documents)."
+ },
+ {
+  "id": "C-012",
+  "claim": "An OBDLink MX+ pairs with Windows 10/11 via Settings > Bluetooth and appears as a COM port usable by serial software.",
+  "kind": "software",
+  "load_bearing": true,
+  "sources": [
+   {
+    "url": "https://support.obdlink.com/support/solutions/articles/43000727094",
+    "doi": "",
+    "title": "OBDLink first-use guide: Windows Bluetooth pairing of MX+",
+    "version": "",
+    "locator": "steps 5-6",
+    "accessed": "2026-09-26",
+    "tier": 1,
+    "id": "S08"
+   },
+   {
+    "url": "https://www.obdlink.com/windows_qsg/",
+    "doi": "",
+    "title": "OBDLink Windows quick start (COM port auto-detect)",
+    "version": "",
+    "locator": "Step 8",
+    "accessed": "2026-09-26",
+    "tier": 1,
+    "id": "S09"
+   }
+  ],
+  "confidence": "corroborated",
+  "evidence_class": "n/a",
+  "contradicted_by": [],
+  "informs": [
+   "D-012",
+   "A-008"
+  ],
+  "notes": "Two Tier 1 vendor documents. Real pairing verified by the human at G-003."
+ },
+ {
+  "id": "C-013",
+  "claim": "python-OBD 0.7.3 auto-detects ISO 15765-4 CAN 11/500 and reads RPM/coolant/DTCs through the ELM327 command set.",
+  "kind": "software",
+  "load_bearing": false,
+  "sources": [
+   {
+    "url": "https://pypi.org/project/obd/0.7.3/",
+    "doi": "",
+    "title": "python-OBD 0.7.3 (installed from PyPI; exercised in spikes S1/S2/S4)",
+    "version": "0.7.3",
+    "locator": "package source",
+    "accessed": "2026-09-26",
+    "tier": 1,
+    "id": "S27"
+   },
+   {
+    "url": "https://pypi.org/project/ELM327-emulator/4.0.0/",
+    "doi": "",
+    "title": "ELM327-emulator 4.0.0 (spikes S1/S5)",
+    "version": "4.0.0",
+    "locator": "package source",
+    "accessed": "2026-09-26",
+    "tier": 1,
+    "id": "S28"
+   }
+  ],
+  "confidence": "verified",
+  "evidence_class": "n/a",
+  "contradicted_by": [],
+  "informs": [
+   "D-005"
+  ],
+  "notes": "Spike S1 (research/spikes/spike_pyobd_emu.*). Used as a test oracle only (D-005)."
+ },
+ {
+  "id": "C-014",
+  "claim": "2-byte DTC decoding: bits 7-6 of byte 0 select P/C/B/U, bits 5-4 the first digit, remaining nibbles hex; 0x0000 is padding.",
+  "kind": "software",
+  "load_bearing": true,
+  "sources": [
+   {
+    "url": "https://pypi.org/project/obd/0.7.3/",
+    "doi": "",
+    "title": "python-OBD 0.7.3 (installed from PyPI; exercised in spikes S1/S2/S4)",
+    "version": "0.7.3",
+    "locator": "package source",
+    "accessed": "2026-09-26",
+    "tier": 1,
+    "id": "S27"
+   }
+  ],
+  "confidence": "verified",
+  "evidence_class": "n/a",
+  "contradicted_by": [],
+  "informs": [
+   "T-U01",
+   "T-U03",
+   "D-013"
+  ],
+  "notes": "Spike S2 oracle (python-OBD parse_dtc) + SAE J2012 rule; values frozen in T-U01..T-U05."
+ },
+ {
+  "id": "C-015",
+  "claim": "SAE J1979 PID scalings used in PID_TABLE and supported-PID bitmap semantics.",
+  "kind": "software",
+  "load_bearing": true,
+  "sources": [
+   {
+    "url": "https://pypi.org/project/obd/0.7.3/",
+    "doi": "",
+    "title": "python-OBD 0.7.3 (installed from PyPI; exercised in spikes S1/S2/S4)",
+    "version": "0.7.3",
+    "locator": "package source",
+    "accessed": "2026-09-26",
+    "tier": 1,
+    "id": "S27"
+   }
+  ],
+  "confidence": "verified",
+  "evidence_class": "n/a",
+  "contradicted_by": [],
+  "informs": [
+   "T-U06",
+   "T-U11",
+   "D-013"
+  ],
+  "notes": "Spikes S2 and S4; frozen in T-U06, T-U09, T-U11."
+ },
+ {
+  "id": "C-016",
+  "claim": "python-can 4.6.1 SlcanBus(listen_only=True) opens the channel with 'L' (listen-only) instead of 'O'.",
+  "kind": "software",
+  "load_bearing": true,
+  "sources": [
+   {
+    "url": "https://pypi.org/project/python-can/4.6.1/",
+    "doi": "",
+    "title": "python-can 4.6.1 source: can/interfaces/slcan.py listen_only -> 'L'",
+    "version": "4.6.1",
+    "locator": "slcan.py:82,245",
+    "accessed": "2026-09-26",
+    "tier": 1,
+    "id": "S29"
+   }
+  ],
+  "confidence": "verified",
+  "evidence_class": "n/a",
+  "contradicted_by": [],
+  "informs": [
+   "D-018",
+   "T-S12"
+  ],
+  "notes": "Spike S3 reads the installed source."
+ },
+ {
+  "id": "C-017",
+  "claim": "Duonix Bike-Scan 2 Pro (Yamaha, ISO 19689 cable) costs about EUR 449 and lists MT-09 and Tracer 900 but not explicitly the Tracer 9 GT.",
+  "kind": "software",
+  "load_bearing": false,
+  "sources": [
+   {
+    "url": "https://www.touratech.com/duonix-bike-scan-2-pro-diagnostic-device-for-yamaha-with-obd-euro5-iso19689-diagnostic-cable.html",
+    "doi": "",
+    "title": "Touratech: Duonix Bike-Scan 2 Pro for Yamaha with ISO19689 cable, EUR 449",
+    "version": "",
+    "locator": "product text",
+    "accessed": "2026-09-26",
+    "tier": 2,
+    "id": "S19"
+   }
+  ],
+  "confidence": "single-source",
+  "evidence_class": "n/a",
+  "contradicted_by": [],
+  "informs": [
+   "HARDWARE.md"
+  ],
+  "notes": "Ranking input only."
+ },
+ {
+  "id": "C-018",
+  "claim": "HealTech's OBD Tool product page offers software for Honda, Kawasaki and Suzuki only.",
+  "kind": "software",
+  "load_bearing": false,
+  "sources": [
+   {
+    "url": "https://www.healtech-electronics.com/products/obd/",
+    "doi": "",
+    "title": "HealTech OBD Tool product page (software for Honda, Kawasaki, Suzuki)",
+    "version": "",
+    "locator": "downloads list",
+    "accessed": "2026-09-26",
+    "tier": 1,
+    "id": "S20"
+   }
+  ],
+  "confidence": "single-source",
+  "evidence_class": "n/a",
+  "contradicted_by": [],
+  "informs": [
+   "HARDWARE.md"
+  ],
+  "notes": "Exclusion rationale."
+ },
+ {
+  "id": "C-019",
+  "claim": "Cheap ELM327 clones often implement only part of the command set and misbehave; they are a poor basis for concluding a bike does not answer.",
+  "kind": "software",
+  "load_bearing": true,
+  "sources": [
+   {
+    "url": "https://en.wikipedia.org/wiki/ELM327",
+    "doi": "",
+    "title": "ELM327 (Wikipedia): protocol list; clone problems",
+    "version": "",
+    "locator": "Protocols; Clones",
+    "accessed": "2026-09-26",
+    "tier": 3,
+    "id": "S22"
+   },
+   {
+    "url": "https://racechrono.com/forum/discussion/comment/12018/",
+    "doi": "",
+    "title": "RaceChrono forum: cheap ELM327 clones lack configurable init",
+    "version": "",
+    "locator": "comment",
+    "accessed": "2026-09-26",
+    "tier": 4,
+    "id": "S23"
+   }
+  ],
+  "confidence": "single-source",
+  "evidence_class": "n/a",
+  "contradicted_by": [],
+  "informs": [
+   "D-001"
+  ],
+  "notes": "Tier 3 + Tier 4. Drives D-001 (buy a genuine STN-based adapter first)."
+ },
+ {
+  "id": "C-020",
+  "claim": "ELM327-emulator 4.0.0 output format (headers on, spaces on): '\\r'-separated lines, trailing space on data lines, ISO-TP PCI bytes shown, '>' prompt.",
+  "kind": "software",
+  "load_bearing": true,
+  "sources": [
+   {
+    "url": "https://pypi.org/project/ELM327-emulator/4.0.0/",
+    "doi": "",
+    "title": "ELM327-emulator 4.0.0 (spikes S1/S5)",
+    "version": "4.0.0",
+    "locator": "package source",
+    "accessed": "2026-09-26",
+    "tier": 1,
+    "id": "S28"
+   }
+  ],
+  "confidence": "verified",
+  "evidence_class": "n/a",
+  "contradicted_by": [],
+  "informs": [
+   "T-U13",
+   "D-012"
+  ],
+  "notes": "Spike S5 (spike_emu_raw.out.txt); FakeElm mirrors it. Real-adapter format confirmed at G-003 (DR-06)."
+ },
+ {
+  "id": "C-021",
+  "claim": "Diagnostic OBD modules should be plugged directly into the bike's socket; splitters or parallel devices cause 'No Data'.",
+  "kind": "software",
+  "load_bearing": false,
+  "sources": [
+   {
+    "url": "https://support.chigee.com/portal/en/kb/articles/is-the-obd-compatible-with-my-bike",
+    "doi": "",
+    "title": "CHIGEE OBD module requirements (ISO 15765-4; Euro-5 6-pin plug and play; no splitters)",
+    "version": "",
+    "locator": "article",
+    "accessed": "2026-09-26",
+    "tier": 2,
+    "id": "S15"
+   }
+  ],
+  "confidence": "single-source",
+  "evidence_class": "n/a",
+  "contradicted_by": [],
+  "informs": [
+   "G-003"
+  ],
+  "notes": "Procedure note for G-003."
+ },
+ {
+  "id": "C-022",
+  "claim": "Tuner tools can reprogram the Denso RH850 ECU of the MT-09 through the Euro 5 6-pin port, i.e. the port accepts write services.",
+  "kind": "software",
+  "load_bearing": true,
+  "sources": [
+   {
+    "url": "https://www.magicmotorsport.com/en/?p=19716",
+    "doi": "",
+    "title": "Magic Motorsport: OBD programming of Denso RH850 on Yamaha MT-09 via Euro5 6-pin",
+    "version": "",
+    "locator": "news post",
+    "accessed": "2026-09-26",
+    "tier": 2,
+    "id": "S24"
+   }
+  ],
+  "confidence": "single-source",
+  "evidence_class": "n/a",
+  "contradicted_by": [],
+  "informs": [
+   "D-011",
+   "R-003"
+  ],
+  "notes": "Motivates the default-deny allowlist (D-011, R-003)."
+ },
+ {
+  "id": "C-023",
+  "claim": "The Tracer 9 GT+ owner's manual has a 'Diagnostic connector' section giving its location.",
+  "kind": "software",
+  "load_bearing": false,
+  "sources": [
+   {
+    "url": "https://www.manualslib.com/manual/1162987/Yamaha-Mt09.html?page=109",
+    "doi": "",
+    "title": "ManualsLib index: 'Diagnostic Connector' pages exist for Tracer 9 GT+ owner's manual",
+    "version": "",
+    "locator": "related list",
+    "accessed": "2026-09-26",
+    "tier": 3,
+    "id": "S26"
+   }
+  ],
+  "confidence": "single-source",
+  "evidence_class": "n/a",
+  "contradicted_by": [],
+  "informs": [
+   "G-003"
+  ],
+  "notes": "Location not stated here; G-003 step 1 uses the owner's manual."
+ }
+]

@@ -1,0 +1,5 @@
+# Spike-only dependencies (not part of the product). Install into a throwaway venv.
+obd==0.7.3
+ELM327-emulator==4.0.0
+python-can==4.6.1
+pyserial==3.5

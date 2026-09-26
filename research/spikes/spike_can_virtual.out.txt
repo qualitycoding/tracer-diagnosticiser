@@ -1,0 +1,3 @@
+virtual rx: 0x7e8 03410c1af8aaaaaa
+slcan listen_only param: True
+slcan open uses 'L' when listen_only: True
