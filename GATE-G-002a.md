@@ -30,3 +30,6 @@ Reply `proceed` (record what you bought), `proceed-with-rescope: <text>`, or `st
 - CHK-02 (freeze): `sha256sum -c tests/FROZEN_MANIFEST.sha256` — all `OK`.
 - CHK-03 (secrets/VIN): no token pattern found; no files under `runs/` tracked.
 - CHK-04 (consistency): `CONSISTENT: 61 test IDs, 23 claims, 14 steps, 25 risks`.
+
+## Reply (recorded 2026-10-21)
+`proceed`. The user reports owning an OBDLink MX+ with a moulded ISO 19689 red 6-pin to 16-pin lead (rank 1 purchase). Cost and the lead's listing wording (CAN and K-line stated) were not given; not recorded here. Note for G-003: capture the adapter's ATZ banner and firmware, since the transport requires 'ELM327' in that reply (see the retrospective lesson on the unverified banner).
