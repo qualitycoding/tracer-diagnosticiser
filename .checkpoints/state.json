@@ -123,7 +123,8 @@
   "tests/unit/test_elm_parse.py": "9fd9bf5c9a1a4062f4fe3cc7e9deba35d02088a2c0905da32c41c5d97840f577",
   "tests/unit/test_pids.py": "ce2f2dd26329a4f7e8290a99a9864aac93a0c30c1f669af320dec84d594981e9",
   "tests/unit/test_report.py": "f5adfd1e733cd18123777fc54bc24778cd56afc057f93eb60a5cc8c8495c7dce",
-  "tests/unit/test_vehicle.py": "4bf28b2105f1ab304cce72c13a48dfe47ed09074d5b07ca19aa93fc6cd1a702f"
+  "tests/unit/test_vehicle.py": "4bf28b2105f1ab304cce72c13a48dfe47ed09074d5b07ca19aa93fc6cd1a702f",
+  "ADDENDUM-V3.9-STATUS.md": "written"
  },
  "tier_substitutions": [
   "No subagent spawning available: all Haiku/Sonnet/Opus/Fable roles (R2 breadth, R5 adversarial, 3.6 cold-read, Phase 4 pre-mortem, 5.1 check) performed sequentially by the planning agent (Fable/Mythos-class); logged as D-021 and R-020."
@@ -139,5 +140,19 @@
  "open_items": [
   "Human to rotate the planning-chat PAT (A-016)"
  ],
- "updated_at": "2026-09-26T21:50:20Z"
+ "updated_at": "2026-09-26T21:50:20Z",
+ "execution_context": {
+  "objective": "v3.9 planning addendum amendment (planning-only)",
+  "protocol": "v3.9",
+  "protocol_commit": "ef99285404419153dd5f9aaae14f14bb53604a62",
+  "implementation_branch": "impl-v39-addendum-20261102",
+  "amended_on": "2026-11-02"
+ },
+ "active_variables": {
+  "baseline": "v3.1",
+  "source_tip": "579a1c40e026056e042f54d4a3090c1aee197e95",
+  "audited_commit": "069cfff57e2e686e0b09739cab18b36d153aacba"
+ },
+ "lesson_store": "qualitycoding/Lessons",
+ "knowledge_store": "qualitycoding/knowledge"
 }
