@@ -1,5 +1,7 @@
 # HANDOFF — tracer-diagnosticiser
 
+
+Reading order: `HANDOFF.md` → `ADDENDUM-PLAN-V3.9.md` → `plan/PLAN.md`. Later protocol amendments take precedence only where the gap ledger says so.
 ## 1. Purpose
 Build `tracer-diag`, a **read-only** Python tool that reads engine diagnostics (DTCs, MIL, live PIDs, VIN/CALID) from a UK 2022 Yamaha Tracer 9 GT through its red ISO 19689 6-pin port, an ISO 19689→J1962 lead and an OBDLink adapter; and validate the ranked hardware choice on the bike via human gates.
 
