@@ -113,4 +113,4 @@ Optional stretch feature (passive CAN capture, never transmits): `pip install .[
 
 ## Licence
 
-No licence file has been added yet.
+Apache License 2.0. See [LICENSE](LICENSE).
