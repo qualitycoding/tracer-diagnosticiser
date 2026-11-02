@@ -1,3 +1,5 @@
+# PLAN — protocol v3.9 (upgraded by ADDENDUM-PLAN-V3.9.md)
+
 <!-- STATUS HEADER (Phase 5.2) -->
 **STATUS: READY**
 - Active profiles: `software` (`software.deploys = false`)
@@ -265,3 +267,12 @@ Implementation happens on `impl/tracer-diag`, created from the generation branch
 - On failure: Default rule
 - Gate: G-004
 - Relevant decisions/claims: A-006, C-007, C-016
+
+
+## Amendment closing/review steps (v3.9)
+
+- **S-000** — Intake and environment probe (recorded at plan intake).
+- **S-REVIEW** — Traditional code review before packaging/release.
+- **S-ADVERSARIAL** — Adversarial review of security/correctness claims.
+- **S-RETRO** — Retrospective: review execution log, deviations and gate records.
+- **S-KNOW** — Knowledge/lessons: record classified lessons and knowledge items; G-003 controls publication to the Lessons and knowledge stores.

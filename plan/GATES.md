@@ -9,3 +9,11 @@ At a gate the implementer halts, writes `GATE-<id>.md` in the repo root with the
 | G-002b | S-013 (merge `impl/tracer-diag` → `main`, public) | full test log, `pip-audit` output, `sha256sum -c tests/FROZEN_MANIFEST.sha256` output, CHK-03 output, `git diff --stat main...impl/tracer-diag`, licence choice (A-014) | "Merge to public main? Which licence?" | `proceed` → implementer opens a PR and the human merges it; `rescope` → apply, re-run S-010; `stop` → leave branch unmerged. |
 | G-003 | S-012 (first on-bike session, performed by the human on Windows) | human-filled checklist `GATE-G-003.md` (template in HANDOFF.md §6): connector found and photo description, pin-16 voltage, Windows version, adapter model/firmware (`tracer-diag probe`), `probe` output, `dtc` output, `report --text` output (VIN redacted), 30 s `live` CSV row count, whether any lamp changed. Transcripts stay in `runs/` (not committed). | "Did any warning lamp or behaviour change? Did ECU 7E8 answer? Are coolant/RPM/voltage plausible? Did Bluetooth stay connected?" | Apply DR-05 a–f. `proceed` → S-013. `rescope` → e.g. DR-05d options or DR-06 TEST_CHALLENGE. `stop` → halt. |
 | G-004 | S-014 (stretch: passive CAN capture or UDS reads on non-engine modules) | G-003 results; the stretch purpose; hardware to buy (rank 4, needs G-002a again); exact commands; the fact that `uds_read` sends requests to other modules | "Proceed with passive-only capture? Allow UDS read services (0x19/0x22) to non-engine ECUs?" | `proceed` → S-014; `proceed-with-rescope: passive only` → skip UDS; `stop` → plan ends after S-013. |
+
+## G-003 — split learning stores (v3.9)
+
+Lessons and knowledge are pushed to **separate** stores: the `Lessons`
+repository and the `knowledge` repository. G-003 requests the destinations at
+plan close; **do-not-push** either store until human sign-off; the documented
+bundle fallback applies when sign-off is withheld. Store publication never
+holds up the repository amendment's completion record.
